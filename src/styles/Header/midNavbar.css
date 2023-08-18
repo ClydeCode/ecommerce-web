@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     height: 93px;
+    padding: 0 150px;
 }
 
 .mid_nav_search {
@@ -60,6 +61,7 @@
 .cart_wrapper {
     display: flex;
     position: relative;
+    cursor: pointer;
 }
 
 .cart_wrapper .counter_wrapper {
