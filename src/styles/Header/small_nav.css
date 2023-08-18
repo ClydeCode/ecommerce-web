@@ -1,0 +1,32 @@
+.small_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 150px;
+    color: #666666;
+    font-size: 12px;
+}
+
+.small_nav_contact {
+    display: flex;
+    gap: 5px;
+}
+
+.small_nav_contact #icon {
+    width: 15px;
+}
+
+.small_nav_links a {
+    text-decoration: none;
+}
+
+.small_nav_links a:active {
+    color: #666666;
+}
+
+.small_nav_links a:visited:hover {
+    color: #a1a1a1;
+}
+
+.small_nav_links a:visited {
+    color: #666666;
+}
