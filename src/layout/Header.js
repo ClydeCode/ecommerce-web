@@ -4,10 +4,10 @@ import BotNavbar from "../components/Header/BotNavbar.js";
 
 export default function Header() {
     return (
-        <div className="header">
+        <header>
             <SmallNavbar />
             <MidNavbar />
             <BotNavbar />
-        </div>
+        </header>
     )
 }

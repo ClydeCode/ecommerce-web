@@ -1,10 +1,10 @@
 import './App.css';
-import Header from './layout/Header.js';
+import RouteSwitch from "./RouteSwitch";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <RouteSwitch />
     </div>
   );
 }
