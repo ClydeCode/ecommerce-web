@@ -1,7 +1,7 @@
-import "../../styles/Header/smallNavbar.css";
+import "../../styles/Header/topNavbar.css";
 import mapIcon from "../../assets/icons/map_pin.png";
 
-export default function Small_Nav() {
+export default function Top_Nav() {
     return (   
         <div className="small_nav">
             <div className="small_nav_contact">

@@ -1,5 +1,5 @@
 import './App.css';
-import RouteSwitch from "./RouteSwitch";
+import RouteSwitch from "./RouteSwitch.js";
 
 function App() {
   return (
