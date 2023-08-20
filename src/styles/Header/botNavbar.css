@@ -1,6 +1,36 @@
 .bot_nav {
     display: flex;
+    justify-content: space-between;
     height: 60px;
     background-color: #333333;
     padding: 0 150px;
+    color: white;
+    font-size: 14px;
+}
+
+.bot_nav .nav_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.bot_nav .nav_items a {
+    color: #999999;
+    text-decoration: none;
+}
+
+.bot_nav .nav_items a:hover {
+    color: #afafaf;
+}
+
+.bot_nav .nav_items .active {
+    color: white;
+}
+
+.nav_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }

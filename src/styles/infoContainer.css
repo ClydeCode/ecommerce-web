@@ -1,0 +1,31 @@
+.info_container {
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    box-shadow: 0 1px 30px #f0f0f0;
+}
+
+.info_container_wrapper {
+    padding: 0 150px;
+}
+
+.info_container .item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info_container .item_content {
+
+}
+
+.info_container .item_content #title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info_container .item_content #description {
+    color: #999999;
+}
