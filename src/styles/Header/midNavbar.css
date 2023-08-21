@@ -3,11 +3,12 @@
     justify-content: space-between;
     align-items: center;
     height: 93px;
-    padding: 0 150px;
+    padding: 0 210px;
 }
 
 .mid_nav_search {
     display: flex;
+    align-items: center;
 }
 
 .mid_nav_search #searchInput {

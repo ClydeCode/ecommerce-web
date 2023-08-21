@@ -1,0 +1,75 @@
+.bot_footer {
+    background-color: #1A1A1A;
+    height: 368px;
+    padding: 0 210px;
+}
+
+.bot_footer .higher_part {
+    height: 168px;
+}
+
+.bot_footer .higher_part .items {
+    display: flex;
+    gap: 160px;
+    padding: 60px 0 0 0;
+}
+
+.bot_footer .higher_part .items .nav_links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 14px;
+}
+
+.bot_footer .higher_part .items .nav_links a:first-child{
+    margin-bottom: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bot_footer .higher_part .items .nav_links a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.bot_footer .higher_part .items .info {
+    display: flex;
+    align-items: start;
+    gap: 16px;
+    flex-direction: column;
+    color: #808080;
+    font-size: 14px;
+    width: 330px;
+}
+
+.bot_footer .higher_part .items .info-contacts {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.bot_footer .higher_part .items .info-contacts #phoneNumber,
+.bot_footer .higher_part .items .info-contacts #email {
+    display: inline;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 1px 0 0 #20B526;
+    padding: 6px 0;
+}
+
+.bot_footer .lower_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #808080;
+    font-weight: 500;
+    border-top: 1px solid #333333;
+    padding: 20px 0;
+    margin-top: 127px;
+}
+
+.bot_footer .lower_part .icons {
+    display: flex;
+    gap: 8px;
+}

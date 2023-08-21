@@ -1,5 +1,6 @@
 import InfoContainer from "../components/InfoContainer.js";
 import MainAds from "../components/MainAds.js";
+import Footer from "../layout/Footer.js";
 import Header from "../layout/Header.js";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
             <Header />
             <MainAds />
             <InfoContainer />
+            <Footer />
         </div>
     );
 }
