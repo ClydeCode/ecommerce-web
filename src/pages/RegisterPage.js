@@ -11,8 +11,8 @@ export default function RegisterPage() {
                 <p id="title">Create Account</p>
                 <form action="post">
                     <input type="email" placeholder="Email"/> 
-                    <input type="password" placeholder="Confirm Password"/>
-                    <input type="password" placeholder="Password"/>        
+                    <input type="password" placeholder="Password"/>
+                    <input type="password" placeholder="Confirm Password"/>        
                     <label>
                         <input type="checkbox" />
                         Accept all terms & Conditions
