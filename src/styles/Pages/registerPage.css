@@ -1,0 +1,78 @@
+.register_page .register_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 520px;
+    height: 432px;
+    margin: 80px auto;
+    padding: 24px;
+    box-shadow: 0 1px 30px #f0f0f0;
+    border-radius: 8px;
+}
+
+.register_page .register_container #title {
+    color: #1A1A1A;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.register_page .register_container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.register_page .register_container form input {
+    padding: 14px 16px;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    color: #999999;
+    font-size: 16px;
+}
+
+.register_page .register_container form label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666666;
+    user-select: none;
+    margin: 10px 0;
+}
+
+.register_page .register_container form label input[type=checkbox] {
+    align-self: flex-start;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.register_page .register_container form #registerBtn {
+    height: 45px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #00B207;
+    border: none;
+    border-radius: 43px;
+}
+
+.register_page .register_container form #registerBtn:hover {
+    background-color: #2C742F;
+    cursor: pointer;
+}
+
+.register_page .register_container #loginOffer {
+    color: #666666;
+    font-size: 14px;
+}
+
+.register_page .register_container #loginOffer a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1A1A1A;
+    text-decoration: none;
+}
