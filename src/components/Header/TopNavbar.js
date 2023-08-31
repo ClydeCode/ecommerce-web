@@ -9,7 +9,7 @@ export default function Top_Nav() {
                 <p id="text">Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
             </div>
             <div className="small_nav_links">
-                <a href="#">Sign In / Sign Up</a>
+                <a href="/login">Sign In / Sign Up</a>
             </div>
         </div>
     );
