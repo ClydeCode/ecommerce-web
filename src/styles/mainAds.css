@@ -1,4 +1,4 @@
-.main_ads {
+.main_section {
     display: flex;
     justify-content: center;
     padding: 30px 210px;
@@ -6,29 +6,29 @@
     gap: 60px;
 }
 
-.main_ads .main_banner {
+.main_section .main_banner {
     position: relative;
 }
 
-.main_ads .main_banner_content {
+.main_section .main_banner_content {
     position: absolute;
     top: 120px;
     left: 40px;
     width: 420px;
 }
 
-.main_ads .main_banner_content .info {
+.main_section .main_banner_content .info {
     margin-top: 30px;
     border-left: 2px solid #FF8A00;
     padding-left: 8px;
 }
 
-.main_ads .main_banner_content .info #title {
+.main_section .main_banner_content .info #title {
     font-size: 20px;
     font-weight: 500;
 }
 
-.main_ads .main_banner_content .info #titleOutlined {
+.main_section .main_banner_content .info #titleOutlined {
     display: inline;
     background-color: #FF8A00;
     border-radius: 5px;
@@ -38,39 +38,39 @@
     margin-left: 3px;
 }
 
-.main_ads .main_banner_content .info #description {
+.main_section .main_banner_content .info #description {
     font-size: 14px;
     margin-top: 10px;
 }
 
-.main_ads .main_banner_content #btn {
+.main_section .main_banner_content #btn {
     margin-top: 30px;
     display: inline-block;
 }
 
-.main_ads .main_banner img {
+.main_section .main_banner img {
     /* width: 872px; */
     height: 593px;
     border-radius: 10px;
 }
 
-.main_ads .main_banner #title {
+.main_section .main_banner #title {
     font-size: 48px;
     font-weight: 600;
 }
 
-.main_ads .right_banners {
+.main_section .right_banners {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.main_ads .right_banners .top_banner,
-.main_ads .right_banners .bot_banner {
+.main_section .right_banners .top_banner,
+.main_section .right_banners .bot_banner {
     position: relative;
 }
 
-.main_ads .right_banners .top_banner_content {
+.main_section .right_banners .top_banner_content {
     position: absolute;
     top: 30px;
     left: 30px;
@@ -78,20 +78,20 @@
     font-size: 14px;
 }
 
-.main_ads .right_banners .top_banner_content #title {
+.main_section .right_banners .top_banner_content #title {
     font-weight: 500;
 }
 
-.main_ads .right_banners .top_banner_content #discount {
+.main_section .right_banners .top_banner_content #discount {
     font-size: 32px;
     font-weight: 600;
 }
 
-.main_ads .right_banners .top_banner_content #btn {
+.main_section .right_banners .top_banner_content #btn {
     margin-top: 20px;
 }
 
-.main_ads .right_banners .bot_banner_content {
+.main_section .right_banners .bot_banner_content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,18 +104,18 @@
     text-align: center;
 }
 
-.main_ads .right_banners .bot_banner_content #title {
+.main_section .right_banners .bot_banner_content #title {
     font-size: 14px;
     font-weight: 500;
 }
 
-.main_ads .right_banners .bot_banner_content #description {
+.main_section .right_banners .bot_banner_content #description {
     font-size: 32px;
     font-weight: 600;
     line-height: 120%;
     width: 300px;
 }
 
-.main_ads .right_banners .bot_banner_content #btn {
+.main_section .right_banners .bot_banner_content #btn {
     margin-top: 20px;
 }

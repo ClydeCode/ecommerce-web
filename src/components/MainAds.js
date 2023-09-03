@@ -6,7 +6,7 @@ import ShopNowBtn from "./ShopNowBtn";
 
 export default function MainAds() {
     return (
-        <div className="main_ads">
+        <div className="main_section">
             <div className="main_banner">
                 <img src={ mainBanner } alt="main_banner"/>
                 <div className="main_banner_content">
